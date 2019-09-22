@@ -8,7 +8,7 @@ def line(array)
       newArray.push ("#{counter}. #{name}")
       counter += 1
     end
-      puts "This line is currently"
+      puts "This line is currently: "
     end 
   end 
 
