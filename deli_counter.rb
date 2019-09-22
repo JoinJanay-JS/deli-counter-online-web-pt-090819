@@ -2,7 +2,7 @@ names = ["Ada", "Grace", "Kent", "Matz"]
 katz_deli = []
   
 def line(array)
-  if array.length = 0 
+  if array.length > 0 
     counter = 0 
     puts "There is nobody in line."
   elsif array.length > 1 
