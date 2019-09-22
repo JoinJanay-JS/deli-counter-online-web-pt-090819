@@ -16,7 +16,6 @@ def line_simple(array) # add onto the first array
   array.each.with_index(1) do |value, indexemus|  
   # "each.with_index" is the method...must use "index"
     current_line << " #{indexemus}. #{value},"    
-    # "indexemus" is used to illustrate this variable can be different from "index"
   end 
   puts current_line
 end 
@@ -30,7 +29,6 @@ def now_serving(line)
   if line.length == 0 # could say: "if deli.empty?"
     puts"There is nobody waiting to be served!"
   else
-    puts "Currently serving #{line[0]}." # could say: "Currently serving #{line.first}."
-    line.shift # this works in the IDE but no on repl.it
+    puts "Currently serving #{line[0]}." 
   end
 end
