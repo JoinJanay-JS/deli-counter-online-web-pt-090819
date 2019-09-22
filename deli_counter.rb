@@ -3,10 +3,11 @@ katz_deli = []
   
 def line(array)
   if array.length >= 1
-    newArray - []
+    newArray = []
     counter += 1 
     names.each do |name|
-      newArray.push (""")
+      newArray.push ("#{counter}. #{name}")
+    end
       puts "Welcome, #{name}/ You are number #{counter} in line."
     end 
   end 
