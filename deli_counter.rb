@@ -12,4 +12,5 @@ def line(array)
       puts "This line is currently: #{katz_deli.join(" ")}"
       end 
 end 
+end
 
