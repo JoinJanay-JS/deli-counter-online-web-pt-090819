@@ -7,6 +7,7 @@ def line(array)
       katz_deli.push ("#{counter}. #{name}")
       counter += 1
     end
+  end
       puts "This line is currently: #{katz_deli.join(" ")}"
       end 
   else  
