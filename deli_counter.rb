@@ -11,4 +11,4 @@ def line(array)
       puts "Welcome, #{name}/ You are number #{counter} in line."
     end 
   end 
-end
+
