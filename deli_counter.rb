@@ -3,6 +3,7 @@ names = ["Ada", "Grace", "Kent", "Matz"]
 def line(array)
   if names.length >= 1
     katz_deli = []
+    counter = 0 
     names.each do |name|
       katz_deli.push ("#{counter}. #{name}")
       counter += 1
