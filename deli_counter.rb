@@ -4,9 +4,9 @@ katz_deli = []
 def line(array)
   if array.length >= 1
     newArray = []
-    counter += 1 
     names.each do |name|
       newArray.push ("#{counter}. #{name}")
+      counter += 1
     end
       puts "Welcome, #{name}/ You are number #{counter} in line."
     end 
