@@ -2,7 +2,7 @@ names = ["Ada", "Grace", "Kent", "Matz"]
 katz_deli = []
   
 def line(array)
-  if array.length >= 1
+  if names.length >= 1
     newArray = []
     names.each do |name|
       newArray.push ("#{counter}. #{name}")
