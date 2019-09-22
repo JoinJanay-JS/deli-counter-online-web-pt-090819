@@ -1,4 +1,4 @@
-def line(array) # this was the one I figured out
+def line(array) # creates a blank array
   if array.length >= 1
     nuarray = []
     counter = 1 
@@ -11,7 +11,7 @@ def line(array) # this was the one I figured out
     puts "The line is currently empty."
   end
 end
-def line_simple(array) # this one follows the same mechanics as learn.co
+def line_simple(array) # add onto the first array
   current_line = "The simple line is currently:"
   array.each.with_index(1) do |value, indexemus|  
   # "each.with_index" is the method...must use "index"
