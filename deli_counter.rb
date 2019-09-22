@@ -6,7 +6,7 @@ def line(array)
     newArray - []
     counter += 1 
     names.each do |name|
-      newArray.push #{name
+      newArray.push (#{counter}.#{name})
       puts "Welcome, #{name}/ You are number #{counter} in line."
     end 
   end 
