@@ -3,6 +3,7 @@ katz_deli = []
   
 def line(array)
   newArray = []
+  puts "There is nobody in line"
   if array.length > 0 
     counter = 0 
     puts "There is nobody in line."
