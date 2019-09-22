@@ -11,4 +11,5 @@ def line(array)
       puts "This line is currently: #{katz_deli.join(" ")}"
       end 
 else 
+  puts "This line is currently empty"
 end 
